@@ -1,0 +1,17 @@
+public class RectangleCalculator {
+    public static void main(String[] args) {
+        // Hardcoded values for length and width
+        double length = 5.0;
+        double width = 10.0;
+
+        // Calculate the area of the rectangle
+        double area = length * width;
+
+        // Calculate the perimeter of the rectangle
+        double perimeter = 2 * (length + width);
+
+        // Print the results
+        System.out.println("The area of the rectangle is: " + area);
+        System.out.println("The perimeter of the rectangle is: " + perimeter);
+    }
+}
